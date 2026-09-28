@@ -1,0 +1,30 @@
+# Data, intermediate results and local environments
+data/
+models/
+# Keep final checkpoints and inference metadata, ignore training intermediates.
+/runs/*
+!/runs/*/
+/runs/*/*
+!/runs/*/best.pt
+!/runs/*/deployment.json
+!/runs/*/config.json
+!/runs/*/data_identity.json
+submissions/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+
+# Uploaded datasets and incomplete downloads
+avito/
+avito.tar
+avito.tar.*
+*.part
+data.tar
+data.tar.*

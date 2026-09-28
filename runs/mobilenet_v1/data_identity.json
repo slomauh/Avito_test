@@ -1,0 +1,7 @@
+{
+  "manifest_sha256": "e49ff54041082b9983d99af7814e021db0c0a883b90952075c5972665c6a6126",
+  "max_train_crops": 200000,
+  "synthetic_fraction": 0.2,
+  "synthetic_manifest_sha256": null,
+  "selected_crop_ids_sha256": "5015d6cee68fbbcfcdf8cf32b7ac8d47606789c63d8b88a3f75e96e4c2c91077"
+}

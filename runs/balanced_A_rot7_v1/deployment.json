@@ -1,0 +1,14 @@
+{
+  "temperature": 0.9261790062647877,
+  "tta": true,
+  "identity": {
+    "checkpoint_sha256": "ddf9b8e8569cefddd1ab5caeee8d1b87231205ccb1413d7c59b5fe3a12f620b3",
+    "architecture": "mobilenet_v3_small_binary",
+    "height": 48,
+    "width": 192,
+    "precision": "fp32",
+    "preprocessing": "RGB, no EXIF transpose, symmetric letterbox 127, ImageNet mean/std"
+  },
+  "selection": "TTA by dev Brier; temperature by calibration Brier; holdout for reporting only",
+  "prior_assumption": "Evaluation contains balanced upright/180 pairs; Avito prior is unknown."
+}

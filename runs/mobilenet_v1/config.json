@@ -1,0 +1,14 @@
+{
+  "seed": 42,
+  "height": 48,
+  "width": 192,
+  "batch_size": 128,
+  "epochs": 10,
+  "lr": 0.0003,
+  "weight_decay": 0.0001,
+  "patience": 3,
+  "amp": true,
+  "pretrained": true,
+  "cpu_threads": 4,
+  "allow_cpu": false
+}

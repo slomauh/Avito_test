@@ -1,0 +1,17 @@
+# PyTorch/torchvision install separately: 00_setup.ipynb
+numpy==1.26.4
+pandas==2.2.3
+Pillow==11.1.0
+scipy==1.15.2
+matplotlib==3.10.1
+opencv-python-headless==4.11.0.86
+ijson==3.3.0
+tqdm==4.67.1
+fonttools==4.56.0
+jupyterlab==4.3.5
+ipykernel==6.29.5
+nbformat==5.10.4
+nbclient==0.10.2
+paddlepaddle==3.0.0
+paddleocr==3.0.3
+paddlex==3.0.3
